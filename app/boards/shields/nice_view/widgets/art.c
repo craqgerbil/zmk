@@ -232,7 +232,7 @@ const lv_img_dsc_t mountain = {
 #define LV_ATTRIBUTE_IMG_HPIC
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_HPIC uint8_t HPic_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_HPIC uint8_t hpic_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
@@ -311,14 +311,14 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_HPIC uint
   0x5b, 0xf7, 0xed, 0x2d, 0x0f, 0x1f, 0xa1, 0xff, 0xfb, 0xea, 0xff, 0xfe, 0x44, 0x0d, 0x00, 0x00, 0x00, 0x00, 
 };
 
-const lv_img_dsc_t HPic = {
+const lv_img_dsc_t hpic = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 68,
   .data_size = 1232,
-  .data = HPic_map,
+  .data = hpic_map,
 };
 
 
