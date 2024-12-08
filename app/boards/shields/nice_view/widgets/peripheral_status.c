@@ -27,6 +27,7 @@ LV_IMG_DECLARE(balloon);
 LV_IMG_DECLARE(mountain);
 LV_IMG_DECLARE(hpic);
 LV_IMG_DECLARE(gerb);
+LV_IMG_DECLARE(lm);
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
